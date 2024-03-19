@@ -25,6 +25,7 @@ CREATE TABLE "Track" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
     "artistId" TEXT,
+    "albumId" TEXT,
     "duration" INTEGER NOT NULL,
     "isFavorite" BOOLEAN NOT NULL DEFAULT false,
 
